@@ -136,3 +136,73 @@ input{
     background-color: green;
     color: white;
 }
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.buttons button{
+    margin: 0px 5%;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    width: 20%;
+}
+
+
+.buttons label{
+    margin: 0px 5%;
+    padding: 10px 20px;
+}
+
+
+.buttons select{
+    margin: 0px 5%;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    width: 10%;
+}
+
+.buttons select option{
+    margin: 0px 5%;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    width: 10%;
+}
+
+
+.searchBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin: 0px 100px;
+}
+
+.labels select{
+    margin: 20px 20px;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    width: 40%;
+   
+}
+
+.labels select option{
+    margin: 0px 5%;
+    padding: 10px 20px;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    width: 10%;
+}
+

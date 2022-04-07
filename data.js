@@ -70,6 +70,21 @@ async deleteBook(book){
 
     return del.json();
 }
+
+
+async filterBook(){
+
+    const filter= await this.api(`/books/filter`, 'PUT')
+
+    return filter.json();
+}
+
+async filterYear(){
+
+    const filter= await this.api(`/books/year`, 'PUT')
+
+    return filter.json()
+}
 }
 
 
